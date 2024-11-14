@@ -15,11 +15,9 @@ const Inicio: FC<InicioProps> = ({ }) => {
 
   
   return (
-    <div>
-      <div className='flex flex-col min-h-screen'>
-        <PostAuthNav />
-      </div>
-      <p>Bienvenido, X</p>
+    <div className='flex flex-col min-h-screen'>
+         <PostAuthNav />
+       <p>Bienvenido, X</p>
       <p>Qué deseas hacer?</p>
       <button className=' border border-gray-200 rounded bg-white hover:bg-gray-100 text-gray-500 text-xs h-8 w-24'
         onClick={()=>{handleRedirection('/logged/clientes')}}>
